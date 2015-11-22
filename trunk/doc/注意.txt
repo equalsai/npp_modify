@@ -1,0 +1,7 @@
+PowerEditor中的工程，使用VS2010进行编译时，会出现notepad_plus.cpp无法生成object文件的错误。
+修改方法是，使用记事本打开notepad_plus.cpp后，另存为，选择unicode的编码格式。保存后，重新生成即可。
+
+
+编译scintilla工程：
+如果没有boost
+nmake NOBOOST=1 -f scintilla.mak

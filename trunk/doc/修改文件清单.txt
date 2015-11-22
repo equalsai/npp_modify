@@ -1,0 +1,35 @@
+-installer
+         -nativeLang
+                   -chineseSimplified.xml
+                   -english.xml
+
+
+-src
+   -ScitillaComponent
+                    -Buffer.cpp
+                    -Buffer.h
+                    -FindReplaceDlg.cpp
+                    -FindReplaceDlg.h
+                    -LineDetailInfoDialog.cpp(增)
+                    -LineDetailInfoDialog.h(增)
+                    -ScintillaEditView.h
+                    -DocTabView.cpp
+                    -DocTabView.h
+   -WinControls
+              -QuickSeek(增)
+                       -quickSeekPanel.cpp(增)
+                       -quickSeekPanel.h(增)
+                       -quickSeekPanel.rc(增)
+                       -quickSeekPanel_rc.h(增)
+   -menuCmdID.h
+   -Notepad_plus.cpp
+   -Notepad_plus.h
+   -Notepad_plus.rc
+   -NppBigSwitch.cpp
+   -NppCommands.cpp
+   -NppNotification.cpp
+   -resource.h
+
+   -icons
+        -equalsai.ico(增)
+	-QuickSeek.bmp(增)
